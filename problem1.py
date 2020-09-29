@@ -19,10 +19,9 @@ Enter a number: 48
 """
 
 #! python3
-
 a = float(input("a number "))
 
 if a % 6 == 0 and a % 8 != 0:
-    print("a is true")
+    print(str(a) + " is true")
 else:
-    print("a is not true")
+    print(str(a) + " is not true")
