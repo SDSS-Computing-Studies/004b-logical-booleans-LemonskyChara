@@ -22,6 +22,6 @@ Enter a number: 48
 a = float(input("a number "))
 
 if a % 6 == 0 and a % 8 != 0:
-    print(str(a) + " is true")
+    print(str(a) + " is frue")
 else:
-    print(str(a) + " is not true")
+    print(str(a) + " is not frue")
