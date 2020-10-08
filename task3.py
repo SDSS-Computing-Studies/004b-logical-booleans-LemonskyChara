@@ -20,3 +20,5 @@ if a == int(a) and a > 0:
     print(str(a) + " is a positive integer.")
 elif a == int(a) and a < 0:
     print(str(a) + " is not a positive integer.")
+elif a != int(a):
+    print(str(a) + " is not an integer.")
