@@ -23,6 +23,6 @@ VIPNames = ("Guile","Blanka","Christine","Carol","Richard","Daniel","Chun-Li")
 
 a = str(input("Enter your name: "))
 if a in VIPNames:
-    print("Hi gertrude! You are a VIP!")
+    print("Hi Christine! You are a VIP!")
 else:
     print("You are not a VIP.")
