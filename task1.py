@@ -15,7 +15,7 @@ Outputs:
 That is within normal Earth orbit.
 That is not within normal Earth orbit.
 """
-a = float(input("enter a number "))
+a = float(input("Enter a number: "))
 if 0.9759 < a and 1.016 > a:
     print("That is within normal Earth orbit.")
 else:
