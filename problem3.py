@@ -32,7 +32,7 @@ c = int(input("Enter an integer "))
 if a < c and b < c and a ** 2 + b ** 2 == c ** 2:
     print(str(a) + "," + str(b) + "," + str(c) + " form a Pythagorean triple")
 elif a < b and c < b and a ** 2 + c ** 2 == b ** 2:
-    print(str(a) + "," + str(b) + "," + str(c) + " form a Pythagorean triple")
+    print(str(a) + "," + str(c) + "," + str(b) + " form a Pythagorean triple")
 elif b < a and c < b and b ** 2 + c ** 2 == a ** 2:
     print(str(a) + "," + str(b) + "," + str(c) + " form a Pythagorean triple")
 else:
